@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Izuans Website Creations</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+body{
+	background-image: url(blur2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	background-color: #efefef;
+	font-family: sans-serif;
+}
+
+#text{
+	color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+#links{
+	color: white;
+	text-decoration: none;
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 57px;
+    height: 100px;
+    color: black;
+}
+
+#links li{
+	color: white;
+	text-decoration: none;
+	font-size: 57px;
+}
+
+#links li a{
+	color: white;
+	text-decoration: none;
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 57px;
+}
+
+ul{
+	text-decoration: none;
+	text-align: right;
+	margin: 0px 20px;
+	padding: 0px 20px;
+}
+
+ul li{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	text-decoration-line: none;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	list-style-type: none;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+.contact-box{
+	width: 500px;
+	background-color: white;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+form{
+	margin: 35px;
+}
+
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+}
+
+.textarea-field{
+	height: 150px;
+	padding-top: 10px;
+}
+
+button{
+	border-radius: 20px;
+	color: #fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #47c35a;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+
+        <div class="contact-box">
+        	<form>
+        		<input type="text" class="input-field" placeholder="Your Name" required>
+        		<input type="email" class="input-field" placeholder="Your Email" required>
+        		<input type="text" class="input-field" placeholder="Subject" required>
+        		<textarea type="text" class="input-field textarea-field" placeholder="Your Message" required></textarea>
+        		<button><input type="button" class="btn">Submit</button>
+        	</form>
+        </div>
+        
+</body>
+</html>
